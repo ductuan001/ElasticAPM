@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\FirstApp\\Worker\\Worker.csproj": {}
+    "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\UseElasticAPM\\Worker\\Worker.csproj": {}
   },
   "projects": {
-    "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\FirstApp\\Worker\\Worker.csproj": {
+    "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\UseElasticAPM\\Worker\\Worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\FirstApp\\Worker\\Worker.csproj",
+        "projectUniqueName": "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\UseElasticAPM\\Worker\\Worker.csproj",
         "projectName": "Worker",
-        "projectPath": "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\FirstApp\\Worker\\Worker.csproj",
+        "projectPath": "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\UseElasticAPM\\Worker\\Worker.csproj",
         "packagesPath": "C:\\Users\\TUAN\\.nuget\\packages\\",
-        "outputPath": "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\FirstApp\\Worker\\obj\\",
+        "outputPath": "E:\\02_Work\\04_DC\\02_Source\\02_Old\\ElasticAPM\\Example\\UseElasticAPM\\Worker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,34 +55,6 @@
             "Elastic.Apm.NetCoreAll": {
               "target": "Package",
               "version": "[1.19.0, )"
-            },
-            "OpenTelemetry": {
-              "target": "Package",
-              "version": "[1.4.0-rc.4, )"
-            },
-            "OpenTelemetry.Api": {
-              "target": "Package",
-              "version": "[1.4.0-rc.4, )"
-            },
-            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
-              "target": "Package",
-              "version": "[1.4.0-rc.4, )"
-            },
-            "OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs": {
-              "target": "Package",
-              "version": "[1.4.0-rc.4, )"
-            },
-            "OpenTelemetry.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[1.4.0-rc.4, )"
-            },
-            "OpenTelemetry.Instrumentation.AspNetCore": {
-              "target": "Package",
-              "version": "[1.0.0-rc9.13, )"
-            },
-            "OpenTelemetry.Instrumentation.Http": {
-              "target": "Package",
-              "version": "[1.0.0-rc9.13, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -42,7 +42,6 @@ public class WorkflowController : ControllerBase
             _logger.LogError("Could not send request", ex);
             response = "Receive failed, please call again";
         }
-
         return response;
     }
 

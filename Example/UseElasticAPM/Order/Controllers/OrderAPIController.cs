@@ -1,10 +1,5 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using OpenTelemetry;
-using OpenTelemetry.Trace;
-using OpenTelemetry.Context.Propagation;
-using OpenTelemetry.Exporter;
-using OpenTelemetry.Trace;
 using Order.Constant;
 
 namespace Order.Controllers;
@@ -36,6 +31,7 @@ public class OrderAPIController : ControllerBase
         var result = "";
         try
         {
+            _logger.LogInformation("Received order call");
             using var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:7245/api/workflowAPIHook");
             var response =  new HttpClient(clientHandler).Send(request);
             result = response.Content.ReadAsStringAsync().Result;
@@ -53,5 +49,6 @@ public class OrderAPIController : ControllerBase
     public void ReceiveMessageFromQueue(String message)
     {
         Console.WriteLine(message);
+        _logger.LogInformation("Received Callback");
     }
 }

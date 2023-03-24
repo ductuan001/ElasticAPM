@@ -12,13 +12,15 @@
         <PackageReference Include="Elastic.Apm.AspNetCore" Version="1.19.0" />
         <PackageReference Include="Elastic.Apm.GrpcClient" Version="1.19.0" />
         <PackageReference Include="Elastic.Apm.NetCoreAll" Version="1.19.0" />
-        <PackageReference Include="OpenTelemetry" Version="1.4.0-rc.4" />
-        <PackageReference Include="OpenTelemetry.Api" Version="1.4.0-rc.4" />
-        <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.4.0-rc.4" />
-        <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs" Version="1.4.0-rc.4" />
-        <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.4.0-rc.4" />
-        <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.0.0-rc9.13" />
-        <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.0.0-rc9.13" />
+        <PackageReference Include="Elastic.Apm.NLog" Version="8.4.0-alpha2" />
+        <PackageReference Include="Elastic.Apm.SerilogEnricher" Version="8.4.0-alpha2" />
+        <PackageReference Include="Elastic.CommonSchema.Serilog" Version="8.4.0-alpha2" />
+        <PackageReference Include="NLog" Version="5.1.2" />
+        <PackageReference Include="NLog.Extensions.Logging" Version="5.2.2" />
+        <PackageReference Include="NLog.Web.AspNetCore" Version="5.2.2" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.1.1-dev-00295" />
+        <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="3.0.1" />
+        <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="9.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 

@@ -26,9 +26,7 @@
     <projectFile profileName="Workflow">Workflow/Workflow.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a363f8ef-8c76-47b7-8376-9c23fe80b9dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FirstApp/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a363f8ef-8c76-47b7-8376-9c23fe80b9dd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -495,7 +493,7 @@
       <workItem from="1676997579842" duration="140000" />
       <workItem from="1677067038646" duration="5156000" />
       <workItem from="1677155652865" duration="4397000" />
-      <workItem from="1677161072150" duration="1218000" />
+      <workItem from="1677161072150" duration="4317000" />
     </task>
     <servers />
   </component>

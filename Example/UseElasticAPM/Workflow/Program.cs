@@ -1,12 +1,6 @@
-using OpenTelemetry;
-using OpenTelemetry.Exporter;
-using OpenTelemetry.Logs;
-using OpenTelemetry.Trace;
-using OpenTelemetry.Resources;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using Elastic.Apm.NetCoreAll;
-using OpenTelemetry.Metrics;
 using Workflow.Constant;
 
 

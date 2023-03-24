@@ -1,9 +1,5 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using OpenTelemetry;
-using OpenTelemetry.Context.Propagation;
-using OpenTelemetry.Exporter;
-using OpenTelemetry.Trace;
 using System.Net.Http.Headers;
 
 namespace Worker.Controllers;

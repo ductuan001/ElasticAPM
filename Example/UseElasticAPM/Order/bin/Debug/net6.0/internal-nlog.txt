@@ -1,0 +1,8 @@
+2023-03-04 22:05:31.1815 Info Message Template Auto Format enabled
+2023-03-04 22:05:31.1815 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-04 22:05:31.2334 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-04 22:05:31.2334 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=AllAsyncWrapper)
+2023-03-04 22:05:31.2503 Info Validating config: TargetNames=AllAsyncWrapper, ConfigItems=39, FilePath=E:\02_Work\04_DC\02_Source\02_Old\ElasticAPM\Example\UseElasticAPM\Order\bin\Debug\net6.0\NLog.config
+2023-03-04 22:05:31.2636 Info Configuration initialized.
+2023-03-04 22:05:31.2636 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-03-04 22:05:31.2636 Info Validating config: TargetNames=AllAsyncWrapper, ConfigItems=39, FilePath=E:\02_Work\04_DC\02_Source\02_Old\ElasticAPM\Example\UseElasticAPM\Order\bin\Debug\net6.0\NLog.config
