@@ -75,4 +75,4 @@ For more information, see "[Elastic APM configuration](https://www.elastic.co/gu
 ## **RUN Application**
 
 ## **APM result**
-![alt text](/assets/images/elastic-apm.png)
+![alt text](/images/elastic-apm.png)
